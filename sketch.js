@@ -24,8 +24,8 @@ function draw() {
 
  for (let y = 0; y < 10; y++) {
    for (let x=0; x < 10; x++) {
+     fill(random(0,255), random(0,255), random(0,255));
      rect(size * x+25/2, size * y+25/2, 25, 25);
-        fill(random(0,255), random(0,255), random(0,255));
  }
 }
 
